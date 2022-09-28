@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'home',
     'trainers',
     'classes',
+    'blog',
+    'profiles',
 ]
 
 MIDDLEWARE = [
