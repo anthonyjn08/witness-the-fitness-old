@@ -8,5 +8,5 @@ class ClassesAdmin(admin.ModelAdmin):
         'trainer_id',
     )
 
-admin.site.register(Classes, ClassesAdmin)
 
+admin.site.register(Classes, ClassesAdmin)

@@ -15,6 +15,7 @@ class Blog(models.Model):
     author = models.ForeignKey(Trainers, on_delete=models.CASCADE)
     created_on = models.DateField(auto_now=True)
     featured_image = models.ImageField(default="blog_placeholder")
+    blog_post = models.TextField()
     excerpt = models.TextField()
     updated_on = models.DateTimeField(auto_now=True)
     status = models.IntegerField(choices=STATUS, default=0)
